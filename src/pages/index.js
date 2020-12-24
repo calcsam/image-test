@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 
 export const Dino = () => (
-  <StaticImage width={100} src="../images/gatsby-astronaut.png" alt="T-Rex" />
+  <img width={100} src="/gatsby-astronaut.png" alt="T-Rex" />
 )
 
 
