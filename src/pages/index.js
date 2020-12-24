@@ -5,6 +5,13 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+import { StaticImage } from "gatsby-plugin-image"
+
+export const Dino = () => (
+  <StaticImage width={100} src="../images/gatsby-astronaut.png" alt="T-Rex" />
+)
+
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -14,6 +21,16 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
+    <Dino />
+    <Dino />
+    <Dino />
+    <Dino />
+    <Dino />
+    <Dino />
+    <Dino />
+    <Dino />
+    <Dino />
+    <Dino />
     <Link to="/page-2/">Go to page 2</Link> <br />
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
